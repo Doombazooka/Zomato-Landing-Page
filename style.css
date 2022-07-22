@@ -2,4 +2,16 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.hero__section{
+    background: url("/images/heroSectionBackground.png");
+    color: white;
+    min-height: 68vh;
+    background-position: center;
+    background-size: cover;    
+}
+.hero__section a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
 }

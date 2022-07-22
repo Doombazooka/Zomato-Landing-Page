@@ -9,9 +9,49 @@
     color: white;
     min-height: 68vh;
     background-position: center;
-    background-size: cover;    
+    background-size: cover; 
+    font-weight: 390;
+    font-size: 18px;   
 }
 .hero__section a{
     color: rgb(255, 255, 255);
     text-decoration: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-top: 30px;
+    align-items: center;
+}
+.navbar_menu_container{
+    display: flex;
+    gap: 35px;
+}
+
+.User__icon{
+    height: 30px;
+    width: 30px;
+    border: solid 1px white;
+    border-radius: 100%;
+    border-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width:600px) {
+.navbar_menu_container .link{
+    display: none;
+}
+.navbar{
+    padding: 16px;
+}
+.hero__section{
+    min-height: 80vh;
+}
+.User__icon{
+    display: flex;
+}     
 }

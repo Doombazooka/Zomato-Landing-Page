@@ -208,6 +208,37 @@ background: linear-gradient(
     font-weight: 400;
 }
 
+.Localities{
+    margin: 50px;
+    margin-left: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.Localities .local{
+    border:0.1px solid rgb(156, 143, 143);
+    border-radius: 7px;
+    width: 250px;
+    gap: 35px;
+    padding: 15px;
+    transition: 200ms;
+}
+
+.Localities .local h5{
+    font-weight: 650;
+}
+
+.Localities .local p{
+    font-weight: 300;
+}
+
+.Localities .local:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px 3px #888888;
+    transition: 200ms;
+}
+
 @media only screen and (max-width: 600px) {
     .navbar_menu_container .link {
         display: none;

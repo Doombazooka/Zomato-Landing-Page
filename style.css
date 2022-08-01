@@ -239,6 +239,16 @@ background: linear-gradient(
     transition: 200ms;
 }
 
+.Get_app{
+    background-color: rgb(255, 251, 247);
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    width: 750 px;
+    height: 750 px;
+}
+
 @media only screen and (max-width: 600px) {
     .navbar_menu_container .link {
         display: none;

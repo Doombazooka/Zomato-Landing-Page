@@ -365,6 +365,10 @@ background: linear-gradient(
     padding: 48px;
 }
 
+.hero__section_container i{
+    color: rgb(252, 201, 201);
+}
+
 .link_conainer{
     display: flex;
     flex-direction: column;

@@ -319,7 +319,6 @@ background: linear-gradient(
     font-weight: 175;
 }
 
-
 @media only screen and (max-width: 600px) {
     .navbar_menu_container .link {
         display: none;

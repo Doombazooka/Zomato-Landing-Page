@@ -319,6 +319,93 @@ background: linear-gradient(
     font-weight: 175;
 }
 
+.footer{
+    width: 100%;
+    background-color: #f8f7f7;
+}
+
+.section1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding-top: 45px;
+}
+
+.section1 img{
+    height: 32px;
+}
+
+.section1__button{
+    display: flex;
+    gap: 16px;
+}
+
+.section1__button button{
+    padding: 1px;
+    width: 90px;
+    border-radius: 5px;
+    border: 1px solid;
+    border-color: gray;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.section1__button img{
+    height: auto;
+}
+
+.Navigation_container{
+    display: grid;
+    grid-template-columns: repeat(6 , 1fr);
+    width: 90%;
+    margin: auto;
+    gap: 1px;
+    padding: 48px;
+}
+
+.link_conainer{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.link_conainer h5{
+    font-weight: 550;
+    font-size: 16px;
+    letter-spacing: 0.8px;
+}
+
+.link_conainer a{
+    text-decoration: none;
+    color: black;
+    font-weight: 250;
+}
+
+#huwhuw{
+    border: 0.01px solid rgb(102, 102, 102);
+}
+
+.link_conainer img{
+    height: 35px;
+    width: 120px;
+}
+
+.OneLastDiv{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.link_conainer{
+    display: flex;
+    gap: 10px;
+}
+.social_link_icon{
+    display: flex;
+    gap: 10px;
+}
+
 @media only screen and (max-width: 600px) {
     .navbar_menu_container .link {
         display: none;
@@ -356,4 +443,5 @@ background: linear-gradient(
     .hero__section_container {
         height: calc(80vh - 60px);
     }
+    
 }

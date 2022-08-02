@@ -225,6 +225,10 @@ background: linear-gradient(
     transition: 200ms;
 }
 
+.card:hover{
+    cursor: pointer;
+}
+
 .Localities .local h5{
     font-weight: 650;
 }
